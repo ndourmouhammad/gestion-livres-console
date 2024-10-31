@@ -1,3 +1,5 @@
+package model;
+
 public class Livre {
 
     // Declaration des proprietes

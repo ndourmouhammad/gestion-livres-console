@@ -1,3 +1,7 @@
+package service;
+
+import model.Livre;
+
 import java.util.ArrayList;
 
 public class GestionLivre {
@@ -11,20 +15,32 @@ public class GestionLivre {
     // Methode pour ajouter un livre
     public void ajouterLivre(Livre livre) {
         livres.add(livre);
-        System.out.println("Livre ajoute : " + livre);
+        try {
+            System.out.println("model.Livre ajoute : " + livre);
+        } catch (Exception e) {
+            System.out.println("Erreur lors de l'ajout du livre");
+        }
     }
 
     // Methode pour supprimer un livre par titre
     public void supprimerLivre(String titre) {
         livres.removeIf(livre -> livre.getTitre().equalsIgnoreCase(titre));
-        System.out.println("Livre supprime : " + titre);
+        try {
+            System.out.println("model.Livre supprime : " + titre);
+        } catch (Exception e) {
+            System.out.println("Erreur lors de la suppression du livre");
+        }
     }
 
     // Methode pour afficher tous les livres
     public void listerLivres() {
         System.out.println("Livres : " + livres);
         for (Livre livre : livres) {
-            System.out.println(livre);
+            try {
+                System.out.println(livre);
+            } catch (Exception e) {
+                System.out.println("Erreur lors de l'affichage des livres");
+            }
         }
     }
     // Methode pour modifier un livre
@@ -36,12 +52,12 @@ public class GestionLivre {
                 livre.setAuteur(nouvelAutor);
                 livre.setAnnee(nouvelleAnnee);
                 trouve = true;
-                System.out.println("Livre modifie : " + livre);
+                System.out.println("model.Livre modifie : " + livre);
                 break;
             }
         }
         if (!trouve) {
-            System.out.println("Livre n'existe pas");
+            System.out.println("model.Livre n'existe pas");
         }
     }
 

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1463488-52d1-4649-b69e-6ea2cb3d12c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b1463488-52d1-4649-b69e-6ea2cb3d12c0" name="Changes" comment="Premiere version de l'application">
+      <change beforePath="$PROJECT_DIR$/src/GestionLivre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/GestionLivre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Livre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,11 +77,35 @@
       <option name="presentableId" value="Default" />
       <updated>1730183651043</updated>
       <workItem from="1730183652165" duration="509000" />
-      <workItem from="1730370341250" duration="4207000" />
+      <workItem from="1730370341250" duration="5439000" />
     </task>
+    <task id="LOCAL-00001" summary="Premiere version de l'application">
+      <option name="closed" value="true" />
+      <created>1730375433650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730375433650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Premiere version de l'application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Premiere version de l'application" />
   </component>
 </project>

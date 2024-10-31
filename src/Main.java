@@ -1,3 +1,6 @@
+import model.Livre;
+import service.GestionLivre;
+
 import java.util.Scanner;
 
 public class Main {
@@ -31,7 +34,7 @@ public class Main {
 
                     Livre nouveauLivre = new Livre(titre, auteur, annee);
                     gestionLivre.ajouterLivre(nouveauLivre);
-                    System.out.println("Livre ajoute avec succes.");
+                    System.out.println("model.Livre ajoute avec succes.");
                     break;
 
                 case 3:
@@ -45,14 +48,14 @@ public class Main {
                     int nouvelleAnnee = scanner.nextInt();
                     scanner.nextLine();
                     gestionLivre.modifierLivre(titreModifier, nouveauTitre, nouvelAuteur, nouvelleAnnee);
-                    System.out.println("Livre modifie avec succes.");
+                    System.out.println("model.Livre modifie avec succes.");
                     break;
 
                 case 4:
                     System.out.print("Entrer le titre du livre a supprimer ");
                     String titreASupp = scanner.nextLine();
                     gestionLivre.supprimerLivre(titreASupp);
-                    System.out.println("Livre supprime avec succes.");
+                    System.out.println("model.Livre supprime avec succes.");
                     break;
 
                 case 5:
